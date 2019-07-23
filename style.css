@@ -1,6 +1,7 @@
 body {
   margin: auto 0;
   font-size: 20px;
+  color: #f5f5f5;
 }
 
 /* --- MAIN NAV BEGIN --- */
@@ -28,11 +29,23 @@ body {
 
 /* --- MAIN NAV END --- */
 
+/* --- MAIN COVER BEGIN --- */
+
+.cover-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 60vh;
+  font-size: 200%;
+}
+
+/* --- MAIN COVER END --- */
+
 
 .zone {
     cursor:pointer;
-    color:#FFF;
-    font-size: 120%;
+/*    color:#FFF;
+    font-size: 120%;*/
     transition: all 0.3s linear;
 }
 
