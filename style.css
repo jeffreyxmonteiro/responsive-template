@@ -41,6 +41,24 @@ body {
 
 /* --- MAIN COVER END --- */
 
+/* --- MAIN GRID BEGIN --- */
+.grid-container {
+  display: grid;
+  grid-gap: 30px;
+  grid-template-columns: repeat(auto-fill, minmax(275px, 1fr));
+}
+
+.card {
+  background-color: #4a4a4a;
+  padding: 70px;
+  margin: 20px;
+}
+
+.card > img {
+  width: 100%;
+}
+/* --- MAIN GRID END --- */
+
 
 .zone {
     cursor:pointer;
